@@ -40,4 +40,35 @@ var exampleSubstr = example.substr(5, 18);
 Replacing String Content
 */
 
+var exampleReplace = example.replace("special", "cool");
+
+/**
+Converting to Upper and Lower Case
+*/
+
+var exampleUperCase = example.toUpperCase();
+var exampleLowerCase = example.toLowerCase();
+
+/**
+concat
+*/
+
+var exampleConcat = "example".concat("", example);
+
+/**
+trim
+*/
+
+var exampleTrim = example.trim();
+
+/**
+Extracting String Characters
+*/
+
+var examplecCharAt = example.charAt(0);
+
+/**
+Converting a String to an Array
+*/
+var exampleSplit = example.split("");  
 
