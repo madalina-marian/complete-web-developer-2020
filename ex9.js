@@ -70,5 +70,5 @@ var examplecCharAt = example.charAt(0);
 /**
 Converting a String to an Array
 */
-var exampleSplit = example.split("");  
+var exampleSplit = example.split("");
 
