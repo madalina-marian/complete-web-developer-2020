@@ -11,8 +11,12 @@ Call that function and apply it to a container of an HTML page.
 **/
 
 var generateRandomInteger = function(min,max) {
-     return Math.random() * (max - min) + min;
+     // return Math.random() * (max - min) + min;
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
 };
 
 console.log(generateRandomInteger(1, 2));
 console.log(generateRandomInteger(5, 8));
+console.log(generateRandomInteger(50, 110));
