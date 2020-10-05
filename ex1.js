@@ -13,7 +13,6 @@
 "Java" + "Script" = JavaScript
 " " + " " = " "
 " " + 0 =  0
-// neclar cele cu true si folse
 true + true = 2
 true + false = 1
 false + true = 1
